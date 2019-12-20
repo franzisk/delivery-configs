@@ -1,3 +1,18 @@
-delivery:
-  maxOrders: 10
-  minOrders: 1
+{
+  "name": "delivery-sample-config",
+  "profiles": [
+    "default"
+  ],
+  "label": null,
+  "version": null,
+  "state": null,
+  "propertySources": [
+    {
+      "name": "https://github.com/franzisk/delivery-configs/delivery-sample-config.yml",
+      "source": {
+        "delivery.maxOrders": 10,
+        "delivery.minOrders": 1
+      }
+    }
+  ]
+}
